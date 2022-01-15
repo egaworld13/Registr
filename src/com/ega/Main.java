@@ -85,7 +85,7 @@ public class Main {
                        dati.add(opt);   //ieraksta y/n izvēli array, lai zemāk norādītā "while" būtu ar ko salīdzināt.
                              }
                 }
-        while (dati.get(3).equals("y"));    // kopā ar "do" veido ciklu, kur lietotājam ir iespēja veidot jaunu profilu.
+        while (dati.get(3).equals("y"));    // kopā ar "do" veido ciklu, kur lietotājam ir iespēja reģistrēt jaunu profilu.
     }
 }
 
