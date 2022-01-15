@@ -32,11 +32,11 @@ public class Main {
             //2. E-PASTS
             System.out.println("E-pasts:");
                 String email = sc.nextLine();
-            boolean result = isValid(email);
-            while(!result) {
+            boolean result = isValid(email);      //salīdzina result ar šablonu un sniedz atpakaļ atbildi: true, ja ievade atbilst šablonam.
+            while(!result) {                      // Kamēr rezultāts not true (viens no pieraksta veidiem "!" cikls turpinās
             System.out.println("E-pasts:");
-                email = sc.nextLine();
-                result = isValid(email); }
+                email = sc.nextLine();              // atkārtota ievade
+                result = isValid(email); }          //salīdzina iekš cikla.
 
                     dati.add(email);                            //ierakstam array listē kā otro(1)
 
